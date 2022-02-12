@@ -8,13 +8,13 @@ function ContentRowCenter(){
         <div className="row">
             
             {/*<!-- Last Movie in DB -->*/}
-            <Route path="/lastmovie" component={LastMovieInDb} />
+            {/* <Route path="/lastmovie" component={LastMovieInDb} /> */}
             {/* <LastMovieInDb /> */}
             {/*<!-- End content row last movie in Data Base -->*/}
 
             {/*<!-- Genres in DB -->*/}
-            <Route path="/genres" component={GenresInDb} />
-            {/* <GenresInDb /> */}
+            {/* <Route path="/genres" component={GenresInDb} /> */}
+            <GenresInDb />
 
         </div>
     )
