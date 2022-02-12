@@ -2,6 +2,7 @@ import React from 'react';
 import ContentRowCenter from './ContentRowCenter';
 import ContentRowMovies from './ContentRowMovies';
 import Chart from './Chart';
+import {Route} from "react-router-dom"
 
 function ContentRowTop(){
     return(
@@ -13,7 +14,8 @@ function ContentRowTop(){
 					</div>
 				
 					{/*<!-- Content Row Movies-->*/}
-					<ContentRowMovies />
+					<Route path="/content" component={ContentRowMovies}/>
+					{/* <ContentRowMovies /> */}
 					<ContentRowCenter />
 					<Chart />
 	
